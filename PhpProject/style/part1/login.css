@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-8-20, 10:42:19
+    Author     : 王军
+*/
+#login {
+    width: auto;
+    height: 400px;
+    border: 2px solid #ccc;
+    font-size: 12px;
+
+}
+#login h2 {
+    text-indent: 0;
+    text-align: center;
+}
+#login dl {
+    margin: 0 auto;
+    width: 400px;
+    padding: 50px 0 0 0;
+                /*background-color: #7584b3;*/
+}
+#login dl dt {
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+                /*background-color: #E2E8FF;*/
+}
+#login dl dd {
+    padding: 5px 50px;
+    margin: 0 0 0 0;
+                /*background-color: #0099FF;*/
+}
+#login dl input.submit {
+    width: 60px;
+    height: 28px;
+    margin: 0 0 0 90px;
+    color: #fff;
+    background-color: #66F;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    
+                /*background-color: #C83838;*/
+}
+#login dl dd input.text {
+    width: 220px;
+    height: 19px;
+    margin: 10px 0 0 0;
+    background-color: #fff;
+    border: 1px solid #333;   
+}
+#login dl dd input.password{
+    margin: 10px 0 10px 0;    
+}
+#login dl dd input.yzm {
+    width: 60px;
+    margin: 10px 0 0 9px;
+                    /*background-color: #d3d3d3;*/
+}
+#login dl dd img#code {
+    position: relative;
+    top: 7px;
+    padding: 0 0 0 5px;
+    cursor: pointer;
+}
+#login dl input.location {
+    width: 60px;
+    height: 28px;
+    margin: 10px 0 0 50px;
+    color: #fff;
+    background-color: #66F;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}

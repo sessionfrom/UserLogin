@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-7-30, 17:12:33
+    Author     : 王军
+*/
+#register {
+    width: auto;
+    height: 600px;
+    border: 2px solid #ccc;
+    font-size: 12px;
+
+}
+#register h2 {
+    text-indent: 0;
+    text-align: center;
+}
+#register dl {
+    margin: 0 auto;
+    width: 400px;
+    padding: 50px 0 0 0;
+}
+#register dl dt {
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+#register dl dd {
+    padding: 5px 0;
+}
+#register dl dd.face {
+    padding: 5px 0 5px 140px;
+}
+#register dl dd.face img {
+    cursor: pointer;
+}
+#register dl dd img#code {
+    position: relative;
+    top: 7px;
+    padding: 0 0 0 5px;
+    cursor: pointer;
+}
+#register dl dd input.text {
+    width: 220px;
+    height: 19px;
+    background-color: #fff;
+    border: 1px solid #333;
+}
+#register dl input.submit {
+    width: 120px;
+    height: 28px;
+    margin: 20px 0 0 100px;
+    color: #fff;
+    background-color: #66F;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#register dl dd input.yzm {
+    width: 60px;
+    margin: 0 0 0 13px;
+}
+#register dl dd input.username {
+    margin: 0 0 0 5px;
+}
+#register dl dd input.qq {  
+    margin: 0 0 0 15px;
+}

@@ -1,0 +1,21 @@
+/* 
+    Created on : 2016-8-19, 10:06:23
+    Author     : 王军
+*/
+@CHARSET "utf-8";
+#active {
+    width: auto;
+    height: 300px;
+    border: 2px solid #ccc;
+    font-size: 12px;
+
+}
+#active h2 {
+    text-indent: 0;
+    text-align: center;
+}
+#active p {
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0 0 0;
+}

@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-8-29, 12:27:53
+    Author     : 王军
+*/
+@CHARSET "UTF-8";
+#member {
+    width:auto;
+    height:600px;
+    border:2px solid #ccc;
+    font-size:12px;
+}
+#member h2 {
+    text-indent: 0;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+#member #member_sidebar {
+   margin: 15px;
+   border: 1px dashed #999;
+   width: 300px;
+   height: 500px;
+   float: left;
+}
+#member #member_sidebar dl {
+    width: 250px;
+    background: red;
+    margin: 15px auto;
+}
+#member #member_sidebar dl dt {
+    height: 40px;
+    line-height: 40px;
+    background: #666;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;  
+}
+#member #member_sidebar dl dd {
+    height: 40px;
+    line-height: 40px;
+    background: #eee;
+    text-align: center;
+    font-weight: bold;
+}
+#member #member_sidebar dl dd a {
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+#member #member_sidebar dl dd a:hover {
+    background-color: #ccc;
+}
+#member #member_main {
+    margin: 15px;
+   border: 1px dashed #999; 
+   width: 590px;
+   height: 500px;
+   float: right;
+}
+#member #member_main dl {
+    width: 500px;
+    font-size: 14px;
+    margin: 15px auto;    
+}
+#member #member_main dl dd {
+    border-bottom: 1px dashed #999;
+    padding: 10px 0;
+}
